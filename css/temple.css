@@ -1,0 +1,688 @@
+.center {
+    width: 1048px;
+    margin: 0 auto;
+}
+
+/* 顶部 */
+.top {
+    height: 47px;
+    background-color: #E9E8E8;
+}
+
+/* 顶部功能栏 */
+.top .top_c {
+    height: 47px;
+    line-height: 47px;
+    font-family: "Microsoft YaHei UI";
+}
+
+/* logo */
+.logo {
+    height: 99px;
+    background-color: #A6412B;
+}
+
+.logo .l_c {
+    height: 99px;
+}
+
+.logo .l_left h1 a {
+    display: inline-block;
+    width: 221px;
+    height: 99px;
+    background: url(../images/logo1.png);
+    text-indent: -99999em;
+}
+
+.logo .l_center {
+    width: 296px;
+    height: 28px;
+    background-color: #fff;
+    padding: 1px;
+    margin-top: 34px;
+    margin-left: 70px;
+    border-radius: 5px;
+}
+
+.logo .l_center .txt {
+    width: 232px;
+    height: 28px;
+    outline: none;
+}
+
+.logo .l_center .btn {
+    width: 60px;
+    height: 28px;
+    outline: none;
+    background-color: #A6412B;
+    color: #fff;
+    border-radius: 5px;
+
+}
+
+.logo .l_right {
+    margin-top: 35px;
+}
+
+.logo .l_right li {
+    float: left;
+    height: 30px;
+    line-height: 30px;
+    margin-left: 20px;
+}
+
+.logo .l_right a {
+    color: white;
+}
+
+.logo .l_right input {
+    width: 56px;
+    height: 30px;
+    font-size: 12px;
+}
+
+.logo .l_right li b {
+    display: inline-block;
+    width: 24px;
+    height: 20px;
+    background: url(../images/qq.png);
+    vertical-align: middle;
+}
+
+.logo .l_right li h5 {
+    display: inline-block;
+    width: 24px;
+    height: 20px;
+    background: url(../images/xinlang.png);
+    vertical-align: middle;
+}
+
+/* 内容E */
+.foot {
+    height: 273px;
+    padding: 10px;
+    background-color: #2F2F2F;
+}
+
+.foot .f_border {
+    height: 273px;
+    border: 1px solid #FFD283;
+    position: relative;
+}
+
+.foot .f_border b {
+    position: absolute;
+    width: 17px;
+    height: 17px;
+    background: url(../images/circle.png)
+}
+
+.foot .f_border .b1 {
+    top: 0px;
+    left: 0px;
+}
+
+.foot .f_border .b2 {
+    top: 0px;
+    right: 0px;
+}
+
+.foot .f_border .b3 {
+    bottom: 0px;
+    left: 0px;
+}
+
+.foot .f_border .b4 {
+    bottom: 0px;
+    right: 0px;
+}
+
+.foot .f_left {
+    margin-top: 55px;
+    color: #CCC
+}
+
+.foot .f_left li {
+    height: 33px;
+    line-height: 33px;
+}
+
+.cRed {
+    color: #A6412B;
+}
+
+.foot .f_right {
+    margin-top: 34px;
+}
+
+.foot .f_right li {
+    float: left;
+    width: 105px;
+    height: 33px;
+    background-color: blue;
+    margin-left: 20px;
+}
+
+.foot .f_right li a {
+    color: #666666;
+}
+.box1 {
+    /* 相对定位 */
+    position: relative;
+    width: 334px;
+    height: 208px;
+    /* 背景图片 */
+    background: url(../images/ybr.jpg);
+    /* 背景图片自适应宽和高 */
+    background-size: contain;
+    /* 溢出隐藏 */
+    overflow: hidden;
+}
+.box1::before {
+    /* 利用伪元素做文字说明 */
+    content: '宜宾燃面';
+    /* 绝对定位 */
+    position: absolute;
+    top: -150px;
+    left: 0;
+    width: 334px;
+    height: 208px;
+    /* 行高 让文字垂直居中 */
+    line-height: 350px;
+    text-align: center;
+    font-size: 30px;
+    color: #fff;
+    /* 背景颜色 a代表背景颜色不透明度 */
+    background-color: rgba(0, 0, 0, .2);
+}
+
+.box1:hover::before {
+    top: 0;
+    /* 动画 名称   时长 */
+    animation: dropdown 2s;
+}
+
+/* 下面定义下降动画 */
+@keyframes dropdown {
+    0% {
+        top: -208px;
+    }
+
+    5% {
+        top: 0;
+    }
+
+    10% {
+        top: -30px;
+    }
+
+    20% {
+        top: 0;
+    }
+
+    30% {
+        top: -20px;
+    }
+
+    40% {
+        top: 0;
+    }
+
+    50% {
+        top: -15px;
+    }
+
+    60% {
+        top: 0;
+    }
+
+    70% {
+        top: -10px;
+    }
+
+    80% {
+        top: 0;
+    }
+
+    90% {
+        top: -5px;
+    }
+
+    100% {
+        top: 0;
+    }
+}
+.box2 {
+    /* 相对定位 */
+    position: relative;
+    width: 334px;
+    height: 208px;
+    /* 背景图片 */
+    background: url(../images/jzm.jpg);
+    /* 背景图片自适应宽和高 */
+    background-size: contain;
+    /* 溢出隐藏 */
+    overflow: hidden;
+}
+.box2::before {
+    /* 利用伪元素做文字说明 */
+    content: '姜鸭面';
+    /* 绝对定位 */
+    position: absolute;
+    top: -150px;
+    left: 0;
+    width: 334px;
+    height: 208px;
+    /* 行高 让文字垂直居中 */
+    line-height: 350px;
+    text-align: center;
+    font-size: 30px;
+    color: #fff;
+    /* 背景颜色 a代表背景颜色不透明度 */
+    background-color: rgba(0, 0, 0, .2);
+}
+
+.box2:hover::before {
+    top: 0;
+    /* 动画 名称   时长 */
+    animation: dropdown 2s;
+}
+
+/* 下面定义下降动画 */
+@keyframes dropdown {
+    0% {
+        top: -208px;
+    }
+
+    5% {
+        top: 0;
+    }
+
+    10% {
+        top: -30px;
+    }
+
+    20% {
+        top: 0;
+    }
+
+    30% {
+        top: -20px;
+    }
+
+    40% {
+        top: 0;
+    }
+
+    50% {
+        top: -15px;
+    }
+
+    60% {
+        top: 0;
+    }
+
+    70% {
+        top: -10px;
+    }
+
+    80% {
+        top: 0;
+    }
+
+    90% {
+        top: -5px;
+    }
+
+    100% {
+        top: 0;
+    }
+}
+.box3 {
+    /* 相对定位 */
+    position: relative;
+    width: 334px;
+    height: 208px;
+    /* 背景图片 */
+    background: url(../images/djm.jpg);
+    /* 背景图片自适应宽和高 */
+    background-size: contain;
+    /* 溢出隐藏 */
+    overflow: hidden;
+}
+.box3::before {
+    /* 利用伪元素做文字说明 */
+    content: '炖鸡面';
+    /* 绝对定位 */
+    position: absolute;
+    top: -150px;
+    left: 0;
+    width: 334px;
+    height: 208px;
+    /* 行高 让文字垂直居中 */
+    line-height: 350px;
+    text-align: center;
+    font-size: 30px;
+    color: #fff;
+    /* 背景颜色 a代表背景颜色不透明度 */
+    background-color: rgba(0, 0, 0, .2);
+}
+
+.box3:hover::before {
+    top: 0;
+    /* 动画 名称   时长 */
+    animation: dropdown 2s;
+}
+
+/* 下面定义下降动画 */
+@keyframes dropdown {
+    0% {
+        top: -208px;
+    }
+
+    5% {
+        top: 0;
+    }
+
+    10% {
+        top: -30px;
+    }
+
+    20% {
+        top: 0;
+    }
+
+    30% {
+        top: -20px;
+    }
+
+    40% {
+        top: 0;
+    }
+
+    50% {
+        top: -15px;
+    }
+
+    60% {
+        top: 0;
+    }
+
+    70% {
+        top: -10px;
+    }
+
+    80% {
+        top: 0;
+    }
+
+    90% {
+        top: -5px;
+    }
+
+    100% {
+        top: 0;
+    }
+}
+.box4 {
+    /* 相对定位 */
+    position: relative;
+    width: 334px;
+    height: 208px;
+    /* 背景图片 */
+    background: url(../images/suanni.jpg);
+    /* 背景图片自适应宽和高 */
+    background-size: contain;
+    /* 溢出隐藏 */
+    overflow: hidden;
+}
+.box4::before {
+    /* 利用伪元素做文字说明 */
+    content: '李庄白肉';
+    /* 绝对定位 */
+    position: absolute;
+    top: -150px;
+    left: 0;
+    width: 334px;
+    height: 208px;
+    /* 行高 让文字垂直居中 */
+    line-height: 350px;
+    text-align: center;
+    font-size: 30px;
+    color: #fff;
+    /* 背景颜色 a代表背景颜色不透明度 */
+    background-color: rgba(0, 0, 0, .2);
+}
+
+.box4:hover::before {
+    top: 0;
+    /* 动画 名称   时长 */
+    animation: dropdown 2s;
+}
+
+/* 下面定义下降动画 */
+@keyframes dropdown {
+    0% {
+        top: -208px;
+    }
+
+    5% {
+        top: 0;
+    }
+
+    10% {
+        top: -30px;
+    }
+
+    20% {
+        top: 0;
+    }
+
+    30% {
+        top: -20px;
+    }
+
+    40% {
+        top: 0;
+    }
+
+    50% {
+        top: -15px;
+    }
+
+    60% {
+        top: 0;
+    }
+
+    70% {
+        top: -10px;
+    }
+
+    80% {
+        top: 0;
+    }
+
+    90% {
+        top: -5px;
+    }
+
+    100% {
+        top: 0;
+    }
+}
+.box5 {
+    /* 相对定位 */
+    position: relative;
+    width: 334px;
+    height: 208px;
+    /* 背景图片 */
+    background: url(../images/br.jpg);
+    /* 背景图片自适应宽和高 */
+    background-size: contain;
+    /* 溢出隐藏 */
+    overflow: hidden;
+}
+.box5::before {
+    /* 利用伪元素做文字说明 */
+    content: '蒜泥白肉';
+    /* 绝对定位 */
+    position: absolute;
+    top: -150px;
+    left: 0;
+    width: 334px;
+    height: 208px;
+    /* 行高 让文字垂直居中 */
+    line-height: 350px;
+    text-align: center;
+    font-size: 30px;
+    color: #fff;
+    /* 背景颜色 a代表背景颜色不透明度 */
+    background-color: rgba(0, 0, 0, .2);
+}
+
+.box5:hover::before {
+    top: 0;
+    /* 动画 名称   时长 */
+    animation: dropdown 2s;
+}
+
+/* 下面定义下降动画 */
+@keyframes dropdown {
+    0% {
+        top: -208px;
+    }
+
+    5% {
+        top: 0;
+    }
+
+    10% {
+        top: -30px;
+    }
+
+    20% {
+        top: 0;
+    }
+
+    30% {
+        top: -20px;
+    }
+
+    40% {
+        top: 0;
+    }
+
+    50% {
+        top: -15px;
+    }
+
+    60% {
+        top: 0;
+    }
+
+    70% {
+        top: -10px;
+    }
+
+    80% {
+        top: 0;
+    }
+
+    90% {
+        top: -5px;
+    }
+
+    100% {
+        top: 0;
+    }
+}
+.box6 {
+    /* 相对定位 */
+    position: relative;
+    width: 334px;
+    height: 208px;
+    /* 背景图片 */
+    background: url(../images/suancai.png);
+    /* 背景图片自适应宽和高 */
+    background-size: contain;
+    /* 溢出隐藏 */
+    overflow: hidden;
+}
+.box6::before {
+    /* 利用伪元素做文字说明 */
+    content: '酸菜白肉';
+    /* 绝对定位 */
+    position: absolute;
+    top: -150px;
+    left: 0;
+    width: 334px;
+    height: 208px;
+    /* 行高 让文字垂直居中 */
+    line-height: 350px;
+    text-align: center;
+    font-size: 30px;
+    color: #fff;
+    /* 背景颜色 a代表背景颜色不透明度 */
+    background-color: rgba(0, 0, 0, .2);
+}
+
+.box6:hover::before {
+    top: 0;
+    /* 动画 名称   时长 */
+    animation: dropdown 2s;
+}
+
+/* 下面定义下降动画 */
+@keyframes dropdown {
+    0% {
+        top: -208px;
+    }
+
+    5% {
+        top: 0;
+    }
+
+    10% {
+        top: -30px;
+    }
+
+    20% {
+        top: 0;
+    }
+
+    30% {
+        top: -20px;
+    }
+
+    40% {
+        top: 0;
+    }
+
+    50% {
+        top: -15px;
+    }
+
+    60% {
+        top: 0;
+    }
+
+    70% {
+        top: -10px;
+    }
+
+    80% {
+        top: 0;
+    }
+
+    90% {
+        top: -5px;
+    }
+
+    100% {
+        top: 0;
+    }
+}
+
+
+  
+  

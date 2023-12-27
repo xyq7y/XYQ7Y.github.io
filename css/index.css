@@ -1,0 +1,153 @@
+/* 首页导航 B*/
+
+.p1 {
+    height: 36px;
+    font: normal 700 18px/36px "微软雅黑";
+    margin-left: 10px;
+}
+
+.p2 {
+    font-family: "微软雅黑";
+    margin-left: 10px;
+}
+
+.nav {
+    height: 77px;
+    background-color: #fff;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.cRED {
+    border-bottom: 1px solid #A6412B;
+}
+
+.h2Title {
+    height: 76px;
+    font: normal 700 24px/76px "微软雅黑";
+    text-align: center;
+    position: relative;
+}
+
+.more {
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: #666;
+    font-size: 12px;
+
+}
+
+.nav .nav_c {
+    height: 77px;
+
+}
+
+.nav .nav_c li {
+    float: left;
+    height: 77px;
+    line-height: 77px;
+    font: normal normal 18px/77px "微软雅黑";
+    margin-right: 25px;
+}
+
+.nav .nav_c li a {
+    color: #666;
+
+}
+
+.nav .nav_c li a :hover {
+    color: #A6412B;
+}
+
+.banner ul li {
+    float: left;
+    width: 330px;
+    background-color: #A6412B;
+    position: relative;
+}
+
+.banner ul {
+    /* width: 797px; */
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.banner li {
+    display: inline-block;
+}
+
+.banner ul li img {
+    vertical-align: middle;
+}
+
+.banner .des {
+    width: 330px;
+    height: 63px;
+    background-color: rgba(255, 255, 255, .6);
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    /* 首页导航 */
+}
+
+.search {
+    height: 100px;
+    background-color: #3F3A32;
+    overflow: hidden;
+}
+
+.search .s_center {
+    width: 730px;
+    height: 77px;
+    background-color: #fff;
+    margin: 0 auto;
+    margin-top: 12px;
+}
+
+.search .s_center .txt {
+    width: 510px;
+    height: 77px;
+    outline: none;
+    font: normal normal 18px "微软雅黑";
+    padding-left: 45px;
+}
+
+.search .s_center .btn {
+    width: 173px;
+    height: 77px;
+    background-color: #A6412B;
+    border: none;
+    outline: none;
+    font: normal normal 18px "微软雅黑";
+    color: #fff;
+}
+
+/* 首页搜索 E*/
+/* 首页菜单 B */
+.menu {
+    overflow: hidden;
+}
+
+.menu .img {
+    width: 1010px;
+    vertical-align: middle;
+}
+
+.menu .img li {
+    width: 334px;
+    float: left;
+}
+
+.menu img li a {
+    width: 334px;
+    height: 208px;
+}
+
+.menu .img .word {
+    width: 334px;
+    height: 57px;
+    background-color: #fff;
+}
+
+/* 首页菜单E */
